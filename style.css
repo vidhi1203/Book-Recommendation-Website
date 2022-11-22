@@ -1,0 +1,103 @@
+body, html {
+    background-color: #EBECF0;
+  }
+  
+  body, p, input, select, textarea, button {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+  }
+  
+  div, p {
+    color: #A64AC9;
+    text-shadow: 1px 1px 1px #FFF;
+  }
+  
+  form {
+    padding: 10px;
+    width: 1080px;
+    height: 2000px;
+    margin: 0 auto;
+  }
+  
+  .segment {
+    padding: 24px 0;
+    text-align: center;
+  }
+  
+  button, input {
+    border: 0;
+    border-spacing: 20px;
+    outline: 0;
+    font-size: 17px;
+    border-radius: 370px;
+    padding: 16px;
+    background-color :  #A64AC9;
+    
+    /* #EBECF0 */
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 24px;
+    width: 100%;
+  }
+  
+  input {
+    margin-right: 8px;
+    box-shadow: inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
+    width: 100%;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+    appearance: none;
+    -webkit-appearance: none;
+  }
+  input:focus {
+    box-shadow: inset 1px 1px 2px #a7aab4, inset -1px -1px 2px #FFF;
+  }
+  
+  button {
+    color: #61677C;
+    font-weight: bold;
+    box-shadow: -5px -5px 20px #a7aab4, 5px 5px 20px #BABECC;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  button:hover {
+    box-shadow: -2px -2px 5px #FFF, 2px 2px 5px #a7aab4;
+  }
+  button:active {
+    box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+  }
+  button .icon {
+    margin-right: 8px;
+  }
+  button.unit {
+    border-radius: 8px;
+    line-height: 0;
+    width: 150px;
+    height: 150px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 8px;
+    font-size: 19.2px;
+  }
+  button.unit .icon {
+    margin-right: 0;
+  }
+  button.red {
+    display: block;
+    width: 100%;
+    color: #AE1100;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .input-group label {
+    margin: 0;
+    flex: 1;
+  }

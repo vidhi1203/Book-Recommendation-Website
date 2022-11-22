@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<?php
+include_once 'dbh.inc.php';
+session_start();
+$userid=$_SESSION['u_username'];
+?>
+
+<html>
+    <head>
+        <link rel='stylesheet' href='header.css'>
+        <link rel='icon' href='Novel-O-Clock.jpg'>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    </head>
+    <body>
+        <div id=header>
+            <a href='header.html'>
+            <img id=logo src="Novel-O-Clock.jpg"></a>
+            <div id=options>
+                <span class=item><a href='home_login.html' class='menu'>Home</a></span>
+                <span class=item><a href='rec1.php' class='menu'>Recommendation</a></span>
+                <span class=item><a href='bookform.php' class='menu'>Shelves</a></span>
+                <span class=item><a href='header.html' class='menu'>Cart</a></span>
+                <span class=item><a href='header.html' class='menu'>Log Out</a></span>
+            </div>
+        </div>
